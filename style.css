@@ -1,51 +1,20 @@
-.circulo {
-
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    border-radius: 50%;
-
+.tit-c {
+    display: flex;
+    justify-content: center;
 }
 
-.triangulo {
-
-    width: 0px;
-    height: 0px;
-    border-left: 150px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 300px solid red;
-    
-   
-
+.contenedor {
+    display: flex;
+    justify-content: space-around;
 }
 
-.cuadrado {
-
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-
+.color {
+    color: rgb(61, 43, 226);
 }
 
-.rombo {
-
-    width: 200px;
-    height: 200px;
-    background-color: purple;
-    transform: rotate(50deg);
-    margin-left: 50px;
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.rectangulo {
-
-    width: 500px;
-    height: 250px;
-    background-color: orangered;
-   
-
-}
-
-* {
-    margin-bottom: 100px;
-}
